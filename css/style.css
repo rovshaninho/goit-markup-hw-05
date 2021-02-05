@@ -698,3 +698,19 @@ p {
   visibility: hidden;
   pointer-events: none;
 }
+
+/* === line design in header === */
+.nav-list-item {
+  position: relative;
+}
+
+.current-link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  border: 2px solid var(--accent-color);
+  background-color: var(--accent-color);
+  border-radius: 2px;
+}
