@@ -56,6 +56,18 @@ header {
   border-bottom: 1px solid var(--border-color);
 }
 
+/* animations implement */
+.page-header .list a,
+.footer .address a,
+a.clients-link,
+a.social-link,
+.our-team a.social-link,
+.portfolio button,
+.work-list a {
+  transition: color var(--cubic-variable),
+    background-color var(--cubic-variable), box-shadow var(--cubic-variable);
+}
+
 /* === navigation === */
 .site-nav {
   font-weight: 500;
@@ -538,6 +550,7 @@ a.clients-link:focus {
 
 .footer-main-address {
   margin-bottom: 9px;
+  margin-top: 0;
 }
 
 .footer .social-link {
