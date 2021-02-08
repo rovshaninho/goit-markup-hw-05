@@ -690,6 +690,7 @@ p {
   font-weight: 400;
   line-height: 1.56;
   text-align: left;
+  opacity: 0;
 
   transform: translateY(100%);
   transition: var(--cubic-variable);
@@ -698,6 +699,7 @@ p {
 .team-list-link-wrapper:hover .overlay,
 .team-list-link-wrapper:focus .overlay {
   transform: translateY(0);
+  opacity: 1;
 }
 /* === after footer modal.js connection === */
 .backdrop {
